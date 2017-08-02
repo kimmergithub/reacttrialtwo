@@ -2,9 +2,6 @@
 
 alert ('it works!')
 
-require('./module1.js');
-require('./module2.js');
-
 // instructions
 //
 // FUNfunFUNfunctions === REACT
