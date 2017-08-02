@@ -1,5 +1,7 @@
 'use strict';
 
+alert ('it works!')
+
 require('./module1.js');
 require('./module2.js');
 
@@ -24,6 +26,27 @@ require('./module2.js');
 // npm install babel stuff ===
 // NOTE npm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
 // save these to the dev dependencies...
+//
+// NOTE npm install webpack webpack-dev-server --save-dev
+// save these also to the dev dependencies
+//
+// NOTE create your webpack.config.js file... right click or touch it...
+//
+// NOTE copy gist from this file link...
+// NOTE https://gist.github.com/iamshaunjp/a1c8fb653ddd5d27c3e38ab55e3c0a44
+//
+// NOTE https://www.youtube.com/watch?v=f7TmMBMLJ90 === WEBPACK tutorials...
+//
+//NOTE in the package.json file add ===
+// "start": "npm run build",
+// "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234"
+// so we have quick commnads.  MAKE SURE YOU PAY ATTENTION TO THE PATHs!!!
+//
+// NOTE now you are linking so your alert runs to the scripts / BUNDLE! file form the config...
+// <script src="/app/bundle.js"></script>
+//
+// then go to the packages --- go to tree view and uncheck HIDE VCS ignored Files
+// NOTE npm start
 //
 //LINKS WILL BE AT THE BOTTOM -- There is a quick way but we're going to do this the slow way.
 
