@@ -99,3 +99,8 @@
 //     "url-loader": "^0.5.9",
 //     "webpack": "^3.3.0",
 //     "webpack-dev-server": "^2.5.1"
+
+
+// ATOM PACKAGEES
+// https://atom.io/packages/atom-terminal-panel
+// Commands === "control" + "`"
